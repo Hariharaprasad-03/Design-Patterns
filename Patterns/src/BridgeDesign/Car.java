@@ -6,6 +6,10 @@ public  abstract class Car {
          this.engine = engine;
      }
      public abstract void drive();
+     public void start(){
+         engine.start();
+     }
+
 
      public void getEngineType(){
          engine.getEngineType();

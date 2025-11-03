@@ -27,7 +27,7 @@ public class Ferrai extends Car{
         this.make = make;
     }
     public void drive(){
-        engine.start();
+        start();
         System.out.println(" Ferrari flies");
     }
 
