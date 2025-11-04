@@ -1,0 +1,9 @@
+package AdapterDesign;
+
+public class MallardDuck implements  Quackable{
+
+    @Override
+    public void quack() {
+        System.out.println("quack quack");
+    }
+}
