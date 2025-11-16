@@ -30,7 +30,7 @@ public class Main {
 
         CompositeBox totalBox = new CompositeBox(box1,box2);
 
-        Laptop macAir4 = new Laptop("MacAir4",2000000.0);
+        Laptop macAir4 = new Laptop("Mac4",2000000.0);
         Box box3 = new CompositeBox(macAir4);
 
         totalBox.addExtraItems(box3);
