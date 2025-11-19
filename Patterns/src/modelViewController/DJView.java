@@ -7,7 +7,7 @@ public class DJView implements  BPMObserver{
      private int bpm = 90;
 
      DJView(){
-         model = new BeatModel(this);
+
          controller = new BpmController(model);
      }
 

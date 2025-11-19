@@ -6,10 +6,10 @@ public class BeatModel implements  BeatModelInterface{
 
     private int bpm = 90 ;
     private List<BPMObserver> observerList ;
-    private BPMObserver view ;
 
-    BeatModel(BPMObserver view){
-        this.view = view;
+
+    BeatModel(){
+
     }
 
     @Override
@@ -35,6 +35,7 @@ public class BeatModel implements  BeatModelInterface{
         }
     }
     public  int getBpm(){
+
         return this.bpm ;
     }
 
