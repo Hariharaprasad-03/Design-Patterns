@@ -1,5 +1,5 @@
 package modelViewController;
 
-interface BPMObserver {
-    void updateBpm( int bpm);
+interface VolumeObserver {
+    void updateVolume( int volume);
 }

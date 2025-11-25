@@ -1,9 +1,9 @@
 package modelViewController;
 
-public interface ModelInterface {
+public interface IVolumeModel {
 
-        void setBpm(int bpm);
-        int getBpm();
+        void setVolume(int volume);
+        int getVolume();
         void addObserver(VolumeObserver o);
         void removeObserver(VolumeObserver o);
         void updateNotification();

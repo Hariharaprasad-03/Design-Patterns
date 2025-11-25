@@ -4,9 +4,11 @@ public class MVCMain {
 
     public static void main(String[] args){
 
-        DJView dj = new DJView();
-        dj.increaseBpm();
-        dj.decreaseBpm();
-        dj.setBpm(120);
+        DjView view = new DjView();
+
+        view.setVolume(50);
+        view.increaseVolume();
+        view.decreaseVolume();
+
     }
 }
